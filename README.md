@@ -3,8 +3,8 @@
 1. Копирую чистый репозиторий, без рабочей папки, на локальную машину
    git clone --bare https://github.com/MaksymSemenykhin/git-course-task.git
 2. Захожу на сервер
-   cd .ssh
-   ssh -i "aws_user.ssh" lhus@devopstest.pp.ua.com
+   ```cd .ssh
+   ssh -i "aws_user.ssh" lhus@devopstest.pp.ua.com```
 3. Делаю папку git в srv на сервере
    cd ..
    cd ..
